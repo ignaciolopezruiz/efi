@@ -1,5 +1,5 @@
 export class ApiService {
-  constructor(baseUrl = 'http://127.0.0.1:8000') {
+  constructor(baseUrl = 'https://efi-e74ebfa4.fastapicloud.dev/') {
     this.baseUrl = baseUrl.replace(/\/+$/, '');
   }
 
