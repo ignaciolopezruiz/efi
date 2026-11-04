@@ -1,0 +1,15 @@
+__pycache__/
+*.py[oc]
+build/
+wheels/
+dist/
+*.egg-info
+ferreteria.db
+.venv/
+venv/
+.env
+.fastapicloud/
+node_modules/
+front/node_modules/
+front/dist/
+front/.env
