@@ -79,4 +79,22 @@ export const api = {
     const res = await fetch(`${API_URL}/proveedores/?page=${page}&size=${size}`)
     return handleResponse(res)
   },
+
+  async createProveedor(proveedorData) {
+    const res = await fetch(`${API_URL}/proveedores/`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(proveedorData),
+    })
+    return handleResponse(res)
+  },
+
+  async deleteProveedor(id) {
+    const res = await fetch(`${API_URL}/proveedores/${id}`, {
+      method: 'DELETE',
+    })
+    return handleResponse(res)
+  },
 }
