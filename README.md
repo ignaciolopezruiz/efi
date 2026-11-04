@@ -5,10 +5,10 @@
 ---
 
 ## 👥 Integrantes del Equipo
-* **Integrante 1:** [Nombre y Apellido] — [Email / GitHub]
-* **Integrante 2:** [Nombre y Apellido] — [Email / GitHub]
-* **Integrante 3:** [Nombre y Apellido] — [Email / GitHub]
-* **Integrante 4:** [Nombre y Apellido] — [Email / GitHub]
+* **Integrante 1:** [ignacio loepz ruiz] — [i.lopezruiz@itecriocuarto.org.ar]
+* **Integrante 2:** [Matias Rodriguez] — [m.rodriguez@itecriocuarto.org.ar]
+* **Integrante 3:** [Santiago Heredia] — [s.heredia@itecriocuarto.org.ar]
+
 
 ---
 
