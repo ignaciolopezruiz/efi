@@ -57,6 +57,24 @@ export const api = {
     return handleResponse(res)
   },
 
+  async createCategoria(categoriaData) {
+    const res = await fetch(`${API_URL}/categorias/`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(categoriaData),
+    })
+    return handleResponse(res)
+  },
+
+  async deleteCategoria(id) {
+    const res = await fetch(`${API_URL}/categorias/${id}`, {
+      method: 'DELETE',
+    })
+    return handleResponse(res)
+  },
+
   async getProveedores(page = 1, size = 100) {
     const res = await fetch(`${API_URL}/proveedores/?page=${page}&size=${size}`)
     return handleResponse(res)
